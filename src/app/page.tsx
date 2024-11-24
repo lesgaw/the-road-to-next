@@ -1,5 +1,3 @@
-import { ticketsPath } from '@/paths';
-
 function Home() {
   return (
     <div>
