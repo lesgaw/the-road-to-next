@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import localFont from 'next/font/local';
+import Link from 'next/link';
 import { homePath, ticketsPath } from '@/paths';
 
 const geistSans = localFont({
