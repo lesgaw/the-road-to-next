@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Link from 'next/link';
@@ -49,6 +50,7 @@ export default function RootLayout({
         flex flex-col"
         >
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
